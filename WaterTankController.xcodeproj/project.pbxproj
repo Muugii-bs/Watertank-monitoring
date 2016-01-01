@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5153E6D19349DEE001627C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5153E6C19349DEE001627C9 /* Foundation.framework */; };
+		A5153E6F19349DEE001627C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5153E6E19349DEE001627C9 /* CoreGraphics.framework */; };
+		A5153E7119349DEE001627C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5153E7019349DEE001627C9 /* UIKit.framework */; };
+		A5153E7719349DEE001627C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5153E7519349DEE001627C9 /* InfoPlist.strings */; };
+		A5153E7919349DEE001627C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5153E7819349DEE001627C9 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5153E7D19349DEE001627C9 /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5153E7C19349DEE001627C9 /* XYZAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5153E8019349DEE001627C9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5153E7E19349DEE001627C9 /* Main_iPhone.storyboard */; };
+		A5153E8319349DEE001627C9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5153E8119349DEE001627C9 /* Main_iPad.storyboard */; };
+		A5153E8F19349DEE001627C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5153E8E19349DEE001627C9 /* XCTest.framework */; };
+		A5153E9019349DEE001627C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5153E6C19349DEE001627C9 /* Foundation.framework */; };
+		A5153E9119349DEE001627C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5153E7019349DEE001627C9 /* UIKit.framework */; };
+		A5153E9919349DEE001627C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5153E9719349DEE001627C9 /* InfoPlist.strings */; };
+		A5153E9B19349DEE001627C9 /* WaterTankControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5153E9A19349DEE001627C9 /* WaterTankControllerTests.m */; };
+		A542D7D0195489750094B89C /* XYZCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D7CF195489750094B89C /* XYZCommunicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A542D7D419548BFE0094B89C /* XYZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D7D319548BFE0094B89C /* XYZHomeViewController.m */; };
+		A542D7DA19548C3C0094B89C /* XYZMonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D7D919548C3C0094B89C /* XYZMonitorViewController.m */; };
+		A542D7E619548CBE0094B89C /* XYZChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D7E519548CBE0094B89C /* XYZChangeViewController.m */; };
+		A54382A61987C29500F7A319 /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A54382A11987C29500F7A319 /* PNLineChart.m */; };
+		A54382A71987C29500F7A319 /* PNLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = A54382A31987C29500F7A319 /* PNLineChartData.m */; };
+		A54382A81987C29500F7A319 /* PNLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A54382A51987C29500F7A319 /* PNLineChartDataItem.m */; };
+		A58DAAAE19597A5400C62877 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58DAAAD19597A5400C62877 /* QuartzCore.framework */; };
+		A59D046F1966BAF800FC0059 /* XYZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59D046E1966BAF800FC0059 /* XYZDetailViewController.m */; };
+		A59D04BC1966DCDE00FC0059 /* XYZMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59D04BB1966DCDE00FC0059 /* XYZMasterViewController.m */; };
+		A5C23417197E87AE0094B7A6 /* XYZChangeLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C23416197E87AE0094B7A6 /* XYZChangeLogViewController.m */; };
+		A5CCB6BF1982B8B900F3232E /* XYZSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CCB6BE1982B8B900F3232E /* XYZSettingsViewController.m */; };
+		A5D0FC47196C582A000449B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D0FC46196C582A000449B0 /* Images.xcassets */; };
+		A5E0092A195984B200198F2E /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E00929195984B200198F2E /* PNChartLabel.m */; };
+		A5E0092F1959855600198F2E /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E0092E1959855600198F2E /* PNColor.m */; };
+		A5E00932195985B800198F2E /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E00931195985B800198F2E /* PNBar.m */; };
+		A5E00935195985ED00198F2E /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E00934195985ED00198F2E /* PNBarChart.m */; };
+		A5ED064A19757BBB0053971B /* XYZHelpMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED064919757BBB0053971B /* XYZHelpMasterViewController.m */; };
+		A5ED064D19757BDC0053971B /* XYZHelpDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ED064C19757BDC0053971B /* XYZHelpDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5153E9219349DEE001627C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5153E6119349DEE001627C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5153E6819349DEE001627C9;
+			remoteInfo = WaterTankController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5153E6919349DEE001627C9 /* WaterTankController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterTankController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5153E6C19349DEE001627C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5153E6E19349DEE001627C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5153E7019349DEE001627C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5153E7419349DEE001627C9 /* WaterTankController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaterTankController-Info.plist"; sourceTree = "<group>"; };
+		A5153E7619349DEE001627C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5153E7819349DEE001627C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5153E7A19349DEE001627C9 /* WaterTankController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaterTankController-Prefix.pch"; sourceTree = "<group>"; };
+		A5153E7B19349DEE001627C9 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		A5153E7C19349DEE001627C9 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		A5153E7F19349DEE001627C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A5153E8219349DEE001627C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A5153E8D19349DEE001627C9 /* WaterTankControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterTankControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5153E8E19349DEE001627C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A5153E9619349DEE001627C9 /* WaterTankControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaterTankControllerTests-Info.plist"; sourceTree = "<group>"; };
+		A5153E9819349DEE001627C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5153E9A19349DEE001627C9 /* WaterTankControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterTankControllerTests.m; sourceTree = "<group>"; };
+		A542D7CE195489750094B89C /* XYZCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZCommunicator.h; path = WaterTankController/XYZCommunicator.h; sourceTree = "<group>"; };
+		A542D7CF195489750094B89C /* XYZCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZCommunicator.m; path = WaterTankController/XYZCommunicator.m; sourceTree = "<group>"; };
+		A542D7D119548A120094B89C /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Globals.h; path = WaterTankController/Globals.h; sourceTree = "<group>"; };
+		A542D7D219548BFE0094B89C /* XYZHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZHomeViewController.h; sourceTree = "<group>"; };
+		A542D7D319548BFE0094B89C /* XYZHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZHomeViewController.m; sourceTree = "<group>"; };
+		A542D7D819548C3C0094B89C /* XYZMonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZMonitorViewController.h; path = WaterTankController/XYZMonitorViewController.h; sourceTree = "<group>"; };
+		A542D7D919548C3C0094B89C /* XYZMonitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZMonitorViewController.m; path = WaterTankController/XYZMonitorViewController.m; sourceTree = "<group>"; };
+		A542D7E419548CBE0094B89C /* XYZChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZChangeViewController.h; path = WaterTankController/XYZChangeViewController.h; sourceTree = "<group>"; };
+		A542D7E519548CBE0094B89C /* XYZChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZChangeViewController.m; path = WaterTankController/XYZChangeViewController.m; sourceTree = "<group>"; };
+		A54382A01987C29500F7A319 /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNLineChart.h; path = ../../../PNChart/PNChart/PNLineChart/PNLineChart.h; sourceTree = "<group>"; };
+		A54382A11987C29500F7A319 /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNLineChart.m; path = ../../../PNChart/PNChart/PNLineChart/PNLineChart.m; sourceTree = "<group>"; };
+		A54382A21987C29500F7A319 /* PNLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNLineChartData.h; path = ../../../PNChart/PNChart/PNLineChart/PNLineChartData.h; sourceTree = "<group>"; };
+		A54382A31987C29500F7A319 /* PNLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNLineChartData.m; path = ../../../PNChart/PNChart/PNLineChart/PNLineChartData.m; sourceTree = "<group>"; };
+		A54382A41987C29500F7A319 /* PNLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNLineChartDataItem.h; path = ../../../PNChart/PNChart/PNLineChart/PNLineChartDataItem.h; sourceTree = "<group>"; };
+		A54382A51987C29500F7A319 /* PNLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNLineChartDataItem.m; path = ../../../PNChart/PNChart/PNLineChart/PNLineChartDataItem.m; sourceTree = "<group>"; };
+		A58DAAAD19597A5400C62877 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A59D046D1966BAF800FC0059 /* XYZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZDetailViewController.h; path = WaterTankController/XYZDetailViewController.h; sourceTree = "<group>"; };
+		A59D046E1966BAF800FC0059 /* XYZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZDetailViewController.m; path = WaterTankController/XYZDetailViewController.m; sourceTree = "<group>"; };
+		A59D04BA1966DCDE00FC0059 /* XYZMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZMasterViewController.h; path = WaterTankController/XYZMasterViewController.h; sourceTree = "<group>"; };
+		A59D04BB1966DCDE00FC0059 /* XYZMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZMasterViewController.m; path = WaterTankController/XYZMasterViewController.m; sourceTree = "<group>"; };
+		A5C23415197E87AE0094B7A6 /* XYZChangeLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZChangeLogViewController.h; sourceTree = "<group>"; };
+		A5C23416197E87AE0094B7A6 /* XYZChangeLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZChangeLogViewController.m; sourceTree = "<group>"; };
+		A5CCB6BD1982B8B900F3232E /* XYZSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZSettingsViewController.h; path = WaterTankController/XYZSettingsViewController.h; sourceTree = "<group>"; };
+		A5CCB6BE1982B8B900F3232E /* XYZSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZSettingsViewController.m; path = WaterTankController/XYZSettingsViewController.m; sourceTree = "<group>"; };
+		A5D0FC46196C582A000449B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		A5E00928195984B200198F2E /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		A5E00929195984B200198F2E /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		A5E0092B195984F100198F2E /* PNChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		A5E0092C1959851D00198F2E /* PNChartDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		A5E0092D1959855600198F2E /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		A5E0092E1959855600198F2E /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		A5E00930195985B800198F2E /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		A5E00931195985B800198F2E /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		A5E00933195985ED00198F2E /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		A5E00934195985ED00198F2E /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		A5ED064819757BBB0053971B /* XYZHelpMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZHelpMasterViewController.h; path = WaterTankController/XYZHelpMasterViewController.h; sourceTree = "<group>"; };
+		A5ED064919757BBB0053971B /* XYZHelpMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZHelpMasterViewController.m; path = WaterTankController/XYZHelpMasterViewController.m; sourceTree = "<group>"; };
+		A5ED064B19757BDC0053971B /* XYZHelpDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZHelpDetailViewController.h; path = WaterTankController/XYZHelpDetailViewController.h; sourceTree = "<group>"; };
+		A5ED064C19757BDC0053971B /* XYZHelpDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZHelpDetailViewController.m; path = WaterTankController/XYZHelpDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5153E6619349DEE001627C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58DAAAE19597A5400C62877 /* QuartzCore.framework in Frameworks */,
+				A5153E6F19349DEE001627C9 /* CoreGraphics.framework in Frameworks */,
+				A5153E7119349DEE001627C9 /* UIKit.framework in Frameworks */,
+				A5153E6D19349DEE001627C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5153E8A19349DEE001627C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5153E8F19349DEE001627C9 /* XCTest.framework in Frameworks */,
+				A5153E9119349DEE001627C9 /* UIKit.framework in Frameworks */,
+				A5153E9019349DEE001627C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5153E6019349DEE001627C9 = {
+			isa = PBXGroup;
+			children = (
+				A542D7D219548BFE0094B89C /* XYZHomeViewController.h */,
+				A542D7D319548BFE0094B89C /* XYZHomeViewController.m */,
+				A542D7D819548C3C0094B89C /* XYZMonitorViewController.h */,
+				A542D7D919548C3C0094B89C /* XYZMonitorViewController.m */,
+				A59D04BA1966DCDE00FC0059 /* XYZMasterViewController.h */,
+				A59D04BB1966DCDE00FC0059 /* XYZMasterViewController.m */,
+				A59D046D1966BAF800FC0059 /* XYZDetailViewController.h */,
+				A59D046E1966BAF800FC0059 /* XYZDetailViewController.m */,
+				A5ED064819757BBB0053971B /* XYZHelpMasterViewController.h */,
+				A5ED064919757BBB0053971B /* XYZHelpMasterViewController.m */,
+				A5ED064B19757BDC0053971B /* XYZHelpDetailViewController.h */,
+				A5ED064C19757BDC0053971B /* XYZHelpDetailViewController.m */,
+				A542D7E419548CBE0094B89C /* XYZChangeViewController.h */,
+				A542D7E519548CBE0094B89C /* XYZChangeViewController.m */,
+				A5C23415197E87AE0094B7A6 /* XYZChangeLogViewController.h */,
+				A5C23416197E87AE0094B7A6 /* XYZChangeLogViewController.m */,
+				A5CCB6BD1982B8B900F3232E /* XYZSettingsViewController.h */,
+				A5CCB6BE1982B8B900F3232E /* XYZSettingsViewController.m */,
+				A542D7D119548A120094B89C /* Globals.h */,
+				A542D7CE195489750094B89C /* XYZCommunicator.h */,
+				A542D7CF195489750094B89C /* XYZCommunicator.m */,
+				A5E009271959844300198F2E /* PNChart */,
+				A5153E7219349DEE001627C9 /* WaterTankController */,
+				A5153E9419349DEE001627C9 /* WaterTankControllerTests */,
+				A5153E6B19349DEE001627C9 /* Frameworks */,
+				A5153E6A19349DEE001627C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5153E6A19349DEE001627C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5153E6919349DEE001627C9 /* WaterTankController.app */,
+				A5153E8D19349DEE001627C9 /* WaterTankControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5153E6B19349DEE001627C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A58DAAAD19597A5400C62877 /* QuartzCore.framework */,
+				A5153E6C19349DEE001627C9 /* Foundation.framework */,
+				A5153E6E19349DEE001627C9 /* CoreGraphics.framework */,
+				A5153E7019349DEE001627C9 /* UIKit.framework */,
+				A5153E8E19349DEE001627C9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5153E7219349DEE001627C9 /* WaterTankController */ = {
+			isa = PBXGroup;
+			children = (
+				A5153E7B19349DEE001627C9 /* XYZAppDelegate.h */,
+				A5153E7C19349DEE001627C9 /* XYZAppDelegate.m */,
+				A5153E7E19349DEE001627C9 /* Main_iPhone.storyboard */,
+				A5153E8119349DEE001627C9 /* Main_iPad.storyboard */,
+				A5D0FC46196C582A000449B0 /* Images.xcassets */,
+				A5153E7319349DEE001627C9 /* Supporting Files */,
+			);
+			path = WaterTankController;
+			sourceTree = "<group>";
+		};
+		A5153E7319349DEE001627C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5153E7419349DEE001627C9 /* WaterTankController-Info.plist */,
+				A5153E7519349DEE001627C9 /* InfoPlist.strings */,
+				A5153E7819349DEE001627C9 /* main.m */,
+				A5153E7A19349DEE001627C9 /* WaterTankController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5153E9419349DEE001627C9 /* WaterTankControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5153E9A19349DEE001627C9 /* WaterTankControllerTests.m */,
+				A5153E9519349DEE001627C9 /* Supporting Files */,
+			);
+			path = WaterTankControllerTests;
+			sourceTree = "<group>";
+		};
+		A5153E9519349DEE001627C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5153E9619349DEE001627C9 /* WaterTankControllerTests-Info.plist */,
+				A5153E9719349DEE001627C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A543829E1987C23900F7A319 /* PNBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				A5E00930195985B800198F2E /* PNBar.h */,
+				A5E00931195985B800198F2E /* PNBar.m */,
+				A5E00933195985ED00198F2E /* PNBarChart.h */,
+				A5E00934195985ED00198F2E /* PNBarChart.m */,
+			);
+			name = PNBarChart;
+			sourceTree = "<group>";
+		};
+		A543829F1987C26200F7A319 /* PNLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				A54382A01987C29500F7A319 /* PNLineChart.h */,
+				A54382A11987C29500F7A319 /* PNLineChart.m */,
+				A54382A21987C29500F7A319 /* PNLineChartData.h */,
+				A54382A31987C29500F7A319 /* PNLineChartData.m */,
+				A54382A41987C29500F7A319 /* PNLineChartDataItem.h */,
+				A54382A51987C29500F7A319 /* PNLineChartDataItem.m */,
+			);
+			name = PNLineChart;
+			sourceTree = "<group>";
+		};
+		A5E009271959844300198F2E /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				A5E0092B195984F100198F2E /* PNChart.h */,
+				A5E0092C1959851D00198F2E /* PNChartDelegate.h */,
+				A5E00928195984B200198F2E /* PNChartLabel.h */,
+				A5E00929195984B200198F2E /* PNChartLabel.m */,
+				A5E0092D1959855600198F2E /* PNColor.h */,
+				A5E0092E1959855600198F2E /* PNColor.m */,
+				A543829F1987C26200F7A319 /* PNLineChart */,
+				A543829E1987C23900F7A319 /* PNBarChart */,
+			);
+			name = PNChart;
+			path = WaterTankControllerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5153E6819349DEE001627C9 /* WaterTankController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5153E9E19349DEF001627C9 /* Build configuration list for PBXNativeTarget "WaterTankController" */;
+			buildPhases = (
+				A5153E6519349DEE001627C9 /* Sources */,
+				A5153E6619349DEE001627C9 /* Frameworks */,
+				A5153E6719349DEE001627C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterTankController;
+			productName = WaterTankController;
+			productReference = A5153E6919349DEE001627C9 /* WaterTankController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5153E8C19349DEE001627C9 /* WaterTankControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5153EA119349DEF001627C9 /* Build configuration list for PBXNativeTarget "WaterTankControllerTests" */;
+			buildPhases = (
+				A5153E8919349DEE001627C9 /* Sources */,
+				A5153E8A19349DEE001627C9 /* Frameworks */,
+				A5153E8B19349DEE001627C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5153E9319349DEE001627C9 /* PBXTargetDependency */,
+			);
+			name = WaterTankControllerTests;
+			productName = WaterTankControllerTests;
+			productReference = A5153E8D19349DEE001627C9 /* WaterTankControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5153E6119349DEE001627C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hitechlab;
+				TargetAttributes = {
+					A5153E8C19349DEE001627C9 = {
+						TestTargetID = A5153E6819349DEE001627C9;
+					};
+				};
+			};
+			buildConfigurationList = A5153E6419349DEE001627C9 /* Build configuration list for PBXProject "WaterTankController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5153E6019349DEE001627C9;
+			productRefGroup = A5153E6A19349DEE001627C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5153E6819349DEE001627C9 /* WaterTankController */,
+				A5153E8C19349DEE001627C9 /* WaterTankControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5153E6719349DEE001627C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5153E8319349DEE001627C9 /* Main_iPad.storyboard in Resources */,
+				A5D0FC47196C582A000449B0 /* Images.xcassets in Resources */,
+				A5153E8019349DEE001627C9 /* Main_iPhone.storyboard in Resources */,
+				A5153E7719349DEE001627C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5153E8B19349DEE001627C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5153E9919349DEE001627C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5153E6519349DEE001627C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A542D7D0195489750094B89C /* XYZCommunicator.m in Sources */,
+				A5CCB6BF1982B8B900F3232E /* XYZSettingsViewController.m in Sources */,
+				A542D7DA19548C3C0094B89C /* XYZMonitorViewController.m in Sources */,
+				A542D7D419548BFE0094B89C /* XYZHomeViewController.m in Sources */,
+				A5153E7D19349DEE001627C9 /* XYZAppDelegate.m in Sources */,
+				A5C23417197E87AE0094B7A6 /* XYZChangeLogViewController.m in Sources */,
+				A5E0092F1959855600198F2E /* PNColor.m in Sources */,
+				A59D046F1966BAF800FC0059 /* XYZDetailViewController.m in Sources */,
+				A59D04BC1966DCDE00FC0059 /* XYZMasterViewController.m in Sources */,
+				A5ED064D19757BDC0053971B /* XYZHelpDetailViewController.m in Sources */,
+				A5E00932195985B800198F2E /* PNBar.m in Sources */,
+				A5E00935195985ED00198F2E /* PNBarChart.m in Sources */,
+				A54382A71987C29500F7A319 /* PNLineChartData.m in Sources */,
+				A542D7E619548CBE0094B89C /* XYZChangeViewController.m in Sources */,
+				A54382A81987C29500F7A319 /* PNLineChartDataItem.m in Sources */,
+				A54382A61987C29500F7A319 /* PNLineChart.m in Sources */,
+				A5ED064A19757BBB0053971B /* XYZHelpMasterViewController.m in Sources */,
+				A5E0092A195984B200198F2E /* PNChartLabel.m in Sources */,
+				A5153E7919349DEE001627C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5153E8919349DEE001627C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5153E9B19349DEE001627C9 /* WaterTankControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5153E9319349DEE001627C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5153E6819349DEE001627C9 /* WaterTankController */;
+			targetProxy = A5153E9219349DEE001627C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5153E7519349DEE001627C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5153E7619349DEE001627C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5153E7E19349DEE001627C9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5153E7F19349DEE001627C9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A5153E8119349DEE001627C9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5153E8219349DEE001627C9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A5153E9719349DEE001627C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5153E9819349DEE001627C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5153E9C19349DEF001627C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5153E9D19349DEF001627C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5153E9F19349DEF001627C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaterTankController/WaterTankController-Prefix.pch";
+				INFOPLIST_FILE = "WaterTankController/WaterTankController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5153EA019349DEF001627C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaterTankController/WaterTankController-Prefix.pch";
+				INFOPLIST_FILE = "WaterTankController/WaterTankController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A5153EA219349DEF001627C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaterTankController.app/WaterTankController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaterTankController/WaterTankController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WaterTankControllerTests/WaterTankControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A5153EA319349DEF001627C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaterTankController.app/WaterTankController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaterTankController/WaterTankController-Prefix.pch";
+				INFOPLIST_FILE = "WaterTankControllerTests/WaterTankControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5153E6419349DEE001627C9 /* Build configuration list for PBXProject "WaterTankController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5153E9C19349DEF001627C9 /* Debug */,
+				A5153E9D19349DEF001627C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5153E9E19349DEF001627C9 /* Build configuration list for PBXNativeTarget "WaterTankController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5153E9F19349DEF001627C9 /* Debug */,
+				A5153EA019349DEF001627C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5153EA119349DEF001627C9 /* Build configuration list for PBXNativeTarget "WaterTankControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5153EA219349DEF001627C9 /* Debug */,
+				A5153EA319349DEF001627C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5153E6119349DEE001627C9 /* Project object */;
+}

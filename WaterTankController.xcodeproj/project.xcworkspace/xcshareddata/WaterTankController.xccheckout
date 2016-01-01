@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F9B23F9-D2FB-4D3A-A7ED-A066271BBBA4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WaterTankController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6ADCD3AC7A4B96411621B145447A2672695C3ABA</key>
+		<string>github.com:Muugii-bs/iOS_wifi_Xbee.git</string>
+		<key>ABBC29B0DBA23FF98210CC04F237C8AA532E10C1</key>
+		<string>https://github.com/kevinzhow/PNChart.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WaterTankController/WaterTankController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6ADCD3AC7A4B96411621B145447A2672695C3ABA</key>
+		<string>../../..</string>
+		<key>ABBC29B0DBA23FF98210CC04F237C8AA532E10C1</key>
+		<string>../../../../PNChart</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Muugii-bs/iOS_wifi_Xbee.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6ADCD3AC7A4B96411621B145447A2672695C3ABA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6ADCD3AC7A4B96411621B145447A2672695C3ABA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Iphone%20app</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ABBC29B0DBA23FF98210CC04F237C8AA532E10C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PNChart</string>
+		</dict>
+	</array>
+</dict>
+</plist>
